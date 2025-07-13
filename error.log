@@ -1,0 +1,2419 @@
+[16-Jun-2025 22:16:50 Europe/Berlin] Uncaught Exception: The number of elements in the type definition string must match the number of bind variables
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\register_handler.php(223): mysqli_stmt->bind_param('issisd', 16, '2569', 'Computer Scienc...', 3, 2025, 'DPS', 3.01)
+#1 {main}
+[16-Jun-2025 22:16:55 Europe/Berlin] Uncaught Exception: The number of elements in the type definition string must match the number of bind variables
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\register_handler.php(223): mysqli_stmt->bind_param('issisd', 17, '2569', 'Computer Scienc...', 3, 2025, 'DPS', 3.01)
+#1 {main}
+[16-Jun-2025 22:18:02 Europe/Berlin] Uncaught Exception: The number of elements in the type definition string must match the number of bind variables
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\register_handler.php(223): mysqli_stmt->bind_param('issisd', 18, '2569', 'Computer Scienc...', 3, 2025, 'DPS', 3.01)
+#1 {main}
+[16-Jun-2025 22:18:06 Europe/Berlin] Uncaught Exception: The number of elements in the type definition string must match the number of bind variables
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\register_handler.php(223): mysqli_stmt->bind_param('issisd', 19, '2569', 'Computer Scienc...', 3, 2025, 'DPS', 3.01)
+#1 {main}
+[17-Jun-2025 21:50:32 Europe/Berlin] Raw input: 
+[17-Jun-2025 21:50:32 Europe/Berlin] JSON decode error: Syntax error
+[17-Jun-2025 21:54:00 Europe/Berlin] Raw input: 
+[17-Jun-2025 21:54:00 Europe/Berlin] JSON decode error: Syntax error
+[17-Jun-2025 21:54:25 Europe/Berlin] Raw input: 
+[17-Jun-2025 21:54:25 Europe/Berlin] JSON decode error: Syntax error
+[17-Jun-2025 21:54:59 Europe/Berlin] Raw input: 
+[17-Jun-2025 21:54:59 Europe/Berlin] JSON decode error: Syntax error
+[17-Jun-2025 21:56:23 Europe/Berlin] Raw input: 
+[17-Jun-2025 21:56:23 Europe/Berlin] JSON decode error: Syntax error
+[17-Jun-2025 21:57:30 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-13","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":"","department":"","designation":"","qualification":"","specialization":"","joiningDate":"","experienceYears":""}
+[17-Jun-2025 22:01:07 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-12","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":"","department":"","designation":"","qualification":"","specialization":"","joiningDate":"","experienceYears":""}
+[17-Jun-2025 22:02:35 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-12","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"3","batchYear":"2025","prevSchool":"RS","gpa":"3","employeeId":"","department":"","designation":"","qualification":"","specialization":"","joiningDate":"","experienceYears":""}
+[17-Jun-2025 22:08:27 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-12","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"3","batchYear":"2025","prevSchool":"RS","gpa":"3","employeeId":"","department":"","designation":"","qualification":"","specialization":"","joiningDate":"","experienceYears":""}
+[17-Jun-2025 22:08:27 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-12
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 3
+    [batchYear] => 2025
+    [prevSchool] => RS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:08:30 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-12","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"3","batchYear":"2025","prevSchool":"RS","gpa":"3","employeeId":"","department":"","designation":"","qualification":"","specialization":"","joiningDate":"","experienceYears":""}
+[17-Jun-2025 22:08:30 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-12
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 3
+    [batchYear] => 2025
+    [prevSchool] => RS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:08:42 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-12","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"3","batchYear":"2025","prevSchool":"RS","gpa":"3","employeeId":"","department":"","designation":"","qualification":"","specialization":"","joiningDate":"","experienceYears":""}
+[17-Jun-2025 22:08:42 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-12
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 3
+    [batchYear] => 2025
+    [prevSchool] => RS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:12:16 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:12:16 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:14:18 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:14:18 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:14:18 Europe/Berlin] Uncaught Exception: Call to a member function bind_param() on bool
+#0 {main}
+[17-Jun-2025 22:14:35 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:14:35 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:14:35 Europe/Berlin] Uncaught Exception: Call to a member function bind_param() on bool
+#0 {main}
+[17-Jun-2025 22:16:19 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:16:19 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:16:19 Europe/Berlin] Failed to prepare student query: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:16:19 Europe/Berlin] Transaction rolled back due to error: Database error: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:16:19 Europe/Berlin] Registration failed: Database error: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:10 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:17:10 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:17:10 Europe/Berlin] Failed to prepare student query: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:10 Europe/Berlin] Transaction rolled back due to error: Database error: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:10 Europe/Berlin] Registration failed: Database error: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:15 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:17:15 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 22:17:15 Europe/Berlin] Failed to prepare student query: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:15 Europe/Berlin] Transaction rolled back due to error: Database error: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:15 Europe/Berlin] Registration failed: Database error: Unknown column 'roll_number' in 'field list'
+[17-Jun-2025 22:17:54 Europe/Berlin] Raw input: {"firstName":"Huziafa","lastName":"Farooq","dob":"2025-06-05","gender":"male","email":"huzaifafarooq@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"huzzi123","password":"123","confirmPassword":"123","role":"student","rollNumber":"2569","program":"Computer Science","semester":"4","batchYear":"2025","prevSchool":"DPS","gpa":"3","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[17-Jun-2025 22:17:54 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Huziafa
+    [lastName] => Farooq
+    [dob] => 2025-06-05
+    [gender] => male
+    [email] => huzaifafarooq@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => huzzi123
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 2569
+    [program] => Computer Science
+    [semester] => 4
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[17-Jun-2025 23:13:05 Europe/Berlin] Raw input: {"firstName":"Hassan","lastName":"Farooq","dob":"2025-06-12","gender":"male","email":"hassanfarooq1033@gmail.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"hassanking","password":"123","confirmPassword":"123","role":"teacher","rollNumber":null,"program":null,"semester":null,"batchYear":null,"prevSchool":null,"gpa":null,"employeeId":"e134nb","department":"Computer Science","designation":"Professor","qualification":"nbads","specialization":"jadksb","joiningDate":"2025-06-12","experienceYears":"1"}
+[17-Jun-2025 23:13:05 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Hassan
+    [lastName] => Farooq
+    [dob] => 2025-06-12
+    [gender] => male
+    [email] => hassanfarooq1033@gmail.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => hassanking
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => teacher
+    [rollNumber] => 
+    [program] => 
+    [semester] => 
+    [batchYear] => 
+    [prevSchool] => 
+    [gpa] => 
+    [employeeId] => e134nb
+    [department] => Computer Science
+    [designation] => Professor
+    [qualification] => nbads
+    [specialization] => jadksb
+    [joiningDate] => 2025-06-12
+    [experienceYears] => 1
+)
+
+[17-Jun-2025 23:16:55 Europe/Berlin] Uncaught Exception: Call to a member function close() on bool
+#0 {main}
+[17-Jun-2025 23:17:38 Europe/Berlin] Error in get_teacher_courses.php: Failed to prepare user check statement: Unknown column 'role' in 'field list'
+[17-Jun-2025 23:19:28 Europe/Berlin] Error in get_teacher_courses.php: Failed to prepare user check statement: Unknown column 'user_type' in 'field list'
+[17-Jun-2025 23:21:01 Europe/Berlin] Error in get_teacher_courses.php: Failed to prepare user check statement: Unknown column 'user_type' in 'field list'
+[17-Jun-2025 23:22:04 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:27:10 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:37:09 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:43:21 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:45:22 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:46:50 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:46:50 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:46:50 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php7049.tmp
+    [error] => 0
+    [size] => 58
+)
+
+[17-Jun-2025 23:46:50 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => student_id
+    [2] => status
+    [3] => remarks
+)
+
+[17-Jun-2025 23:46:50 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 1
+    [status] => 2
+    [remarks] => 3
+)
+
+[17-Jun-2025 23:46:50 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => present
+    [3] => On time
+)
+
+[17-Jun-2025 23:46:50 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:47:07 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:47:23 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:47:23 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:47:23 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpF0A6.tmp
+    [error] => 0
+    [size] => 58
+)
+
+[17-Jun-2025 23:47:23 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => student_id
+    [2] => status
+    [3] => remarks
+)
+
+[17-Jun-2025 23:47:23 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 1
+    [status] => 2
+    [remarks] => 3
+)
+
+[17-Jun-2025 23:47:23 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => present
+    [3] => On time
+)
+
+[17-Jun-2025 23:47:23 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:47:30 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:47:30 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:47:30 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpCAB.tmp
+    [error] => 0
+    [size] => 58
+)
+
+[17-Jun-2025 23:47:30 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => student_id
+    [2] => status
+    [3] => remarks
+)
+
+[17-Jun-2025 23:47:30 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 1
+    [status] => 2
+    [remarks] => 3
+)
+
+[17-Jun-2025 23:47:30 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => present
+    [3] => On time
+)
+
+[17-Jun-2025 23:47:30 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:47:39 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:47:39 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:47:39 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php316A.tmp
+    [error] => 0
+    [size] => 58
+)
+
+[17-Jun-2025 23:47:39 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => student_id
+    [2] => status
+    [3] => remarks
+)
+
+[17-Jun-2025 23:47:39 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 1
+    [status] => 2
+    [remarks] => 3
+)
+
+[17-Jun-2025 23:47:39 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => present
+    [3] => On time
+)
+
+[17-Jun-2025 23:47:39 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:48:26 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:48:26 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:48:26 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpE79C.tmp
+    [error] => 0
+    [size] => 58
+)
+
+[17-Jun-2025 23:48:26 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => student_id
+    [2] => status
+    [3] => remarks
+)
+
+[17-Jun-2025 23:48:26 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 1
+    [status] => 2
+    [remarks] => 3
+)
+
+[17-Jun-2025 23:48:26 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => present
+    [3] => On time
+)
+
+[17-Jun-2025 23:48:26 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:49:30 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:49:30 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:49:30 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpE2E5.tmp
+    [error] => 0
+    [size] => 58
+)
+
+[17-Jun-2025 23:49:30 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => student_id
+    [2] => status
+    [3] => remarks
+)
+
+[17-Jun-2025 23:49:30 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 1
+    [status] => 2
+    [remarks] => 3
+)
+
+[17-Jun-2025 23:49:30 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => present
+    [3] => On time
+)
+
+[17-Jun-2025 23:49:30 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:49:33 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:49:46 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:49:46 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:49:46 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php1F62.tmp
+    [error] => 0
+    [size] => 72
+)
+
+[17-Jun-2025 23:49:46 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:49:46 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:49:46 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => On time
+)
+
+[17-Jun-2025 23:49:46 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:52:08 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:52:08 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:52:08 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php4BE8.tmp
+    [error] => 0
+    [size] => 72
+)
+
+[17-Jun-2025 23:52:08 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:52:08 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:52:08 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => On time
+)
+
+[17-Jun-2025 23:52:08 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => On time
+)
+
+[17-Jun-2025 23:52:47 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:52:47 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:52:47 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpE2D9.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[17-Jun-2025 23:52:47 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:52:47 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:52:47 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[17-Jun-2025 23:52:47 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[17-Jun-2025 23:52:49 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:52:51 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:53:04 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:53:04 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:53:04 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php23EB.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[17-Jun-2025 23:53:04 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:53:04 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:53:04 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[17-Jun-2025 23:53:04 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[17-Jun-2025 23:55:34 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:55:34 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:55:34 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php6DDC.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[17-Jun-2025 23:55:34 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:55:34 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:55:34 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[17-Jun-2025 23:55:34 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[17-Jun-2025 23:55:37 Europe/Berlin] Courses found for teacher 35: 1
+[17-Jun-2025 23:55:50 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:55:50 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:55:50 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpAC4D.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[17-Jun-2025 23:55:50 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:55:50 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:55:50 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[17-Jun-2025 23:55:50 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[17-Jun-2025 23:56:40 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[17-Jun-2025 23:56:40 Europe/Berlin] Teacher ID: 35
+[17-Jun-2025 23:56:40 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php70E6.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[17-Jun-2025 23:56:40 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[17-Jun-2025 23:56:40 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[17-Jun-2025 23:56:40 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[17-Jun-2025 23:56:40 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 09:36:37 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 09:37:07 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 09:37:30 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 09:37:30 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 09:37:30 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php350A.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 09:37:30 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 09:37:30 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 09:37:30 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 09:37:30 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 09:45:35 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 09:45:35 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 09:45:35 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php9C10.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 09:45:35 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 09:45:35 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 09:45:35 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 09:45:35 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 09:48:01 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 09:48:06 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 09:48:07 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 09:48:08 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 11:28:23 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 11:30:28 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 11:30:28 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 11:30:28 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpA0DF.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 11:30:28 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 11:30:28 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 11:30:28 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 11:30:28 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 11:31:16 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 11:31:16 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 11:31:16 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php5CAE.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 11:31:16 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 11:31:16 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 11:31:16 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 11:31:16 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 11:57:34 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 11:57:34 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 11:57:34 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php713C.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 11:57:34 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 11:57:34 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 11:57:34 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 11:57:34 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 11:58:35 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 12:06:49 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 19:25:41 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 22:52:53 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 22:53:39 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 22:53:52 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 22:53:52 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 22:53:52 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php4FAD.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 22:53:52 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 22:53:52 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 22:53:52 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 22:53:52 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 22:56:22 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 22:56:22 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 22:56:22 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php96DF.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 22:56:22 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 22:56:22 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 22:56:22 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 22:56:22 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 22:59:29 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php7242.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[18-Jun-2025 22:59:29 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[18-Jun-2025 22:59:29 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[18-Jun-2025 22:59:29 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[18-Jun-2025 22:59:36 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 22:59:55 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 22:59:55 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\phpDA63.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[18-Jun-2025 22:59:55 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[18-Jun-2025 22:59:55 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[18-Jun-2025 22:59:55 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[18-Jun-2025 23:09:25 Europe/Berlin] PHP Error [2]: mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LMS_System\sync_scholar\config\db_config.php on line 13
+[18-Jun-2025 23:09:25 Europe/Berlin] Database connection failed: No connection could be made because the target machine actively refused it
+[18-Jun-2025 23:09:25 Europe/Berlin] Uncaught Exception: Database connection failed
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\handlers\get_teacher_courses.php(42): require_once()
+#1 {main}
+[18-Jun-2025 23:13:08 Europe/Berlin] PHP Error [2]: mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LMS_System\sync_scholar\config\db_config.php on line 13
+[18-Jun-2025 23:13:08 Europe/Berlin] Database connection failed: No connection could be made because the target machine actively refused it
+[18-Jun-2025 23:13:08 Europe/Berlin] Uncaught Exception: Database connection failed: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\handlers\get_teacher_courses.php(42): require_once()
+#1 {main}
+[18-Jun-2025 23:14:56 Europe/Berlin] PHP Error [2]: mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LMS_System\sync_scholar\config\db_config.php on line 13
+[18-Jun-2025 23:14:56 Europe/Berlin] Database connection failed: No connection could be made because the target machine actively refused it
+[18-Jun-2025 23:14:56 Europe/Berlin] Uncaught Exception: Database connection failed
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\handlers\get_teacher_courses.php(42): require_once()
+#1 {main}
+[18-Jun-2025 23:15:38 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 23:15:50 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 23:15:50 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php6C5F.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[18-Jun-2025 23:15:50 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[18-Jun-2025 23:15:50 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[18-Jun-2025 23:15:50 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[18-Jun-2025 23:20:56 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 23:21:06 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 23:21:06 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php3EDF.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[18-Jun-2025 23:21:06 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[18-Jun-2025 23:21:06 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[18-Jun-2025 23:21:06 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 23:22:12 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php3FF5.tmp
+    [error] => 0
+    [size] => 69
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 1
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 1
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[18-Jun-2025 23:22:12 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[18-Jun-2025 23:22:12 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[18-Jun-2025 23:22:12 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[18-Jun-2025 23:22:40 Europe/Berlin] Courses found for teacher 35: 1
+[18-Jun-2025 23:23:06 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] Teacher ID: 35
+[18-Jun-2025 23:23:06 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php11FC.tmp
+    [error] => 0
+    [size] => 70
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 34
+    [3] => present
+    [4] => late
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 34
+    [status] => present
+    [remarks] => late
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[18-Jun-2025 23:23:06 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[18-Jun-2025 23:23:06 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[18-Jun-2025 23:23:06 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[18-Jun-2025 23:33:36 Europe/Berlin] Courses found for teacher 35: 2
+[18-Jun-2025 23:33:53 Europe/Berlin] Courses found for teacher 35: 2
+[18-Jun-2025 23:49:39 Europe/Berlin] Courses found for teacher 35: 2
+[19-Jun-2025 00:35:17 Europe/Berlin] Courses found for teacher 35: 3
+[19-Jun-2025 00:37:10 Europe/Berlin] Courses found for teacher 35: 3
+[19-Jun-2025 00:37:12 Europe/Berlin] Courses found for teacher 35: 3
+[19-Jun-2025 00:49:07 Europe/Berlin] Courses found for teacher 35: 3
+[19-Jun-2025 00:49:20 Europe/Berlin] Session data: Array
+(
+    [user_id] => 35
+    [username] => hassanking
+    [full_name] => Hassan Farooq
+    [role] => teacher
+    [role_id] => 12345
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] Teacher ID: 35
+[19-Jun-2025 00:49:20 Europe/Berlin] File data: Array
+(
+    [name] => sample_attendance.csv
+    [type] => text/csv
+    [tmp_name] => C:\xampp\tmp\php692.tmp
+    [error] => 0
+    [size] => 70
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] CSV Headers: Array
+(
+    [0] => course_id
+    [1] => course_id
+    [2] => student_id
+    [3] => status
+    [4] => remarks
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] Header indices: Array
+(
+    [course_id] => 0
+    [student_id] => 2
+    [status] => 3
+    [remarks] => 4
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] Processing row 2: Array
+(
+    [0] => 1
+    [1] => 1
+    [2] => 34
+    [3] => present
+    [4] => late
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] Row 2 values: Array
+(
+    [course_id] => 1
+    [student_id] => 34
+    [status] => present
+    [remarks] => late
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] Row 2: Successfully inserted attendance record
+[19-Jun-2025 00:49:20 Europe/Berlin] Processing row 3: Array
+(
+    [0] => 1
+    [1] => 
+)
+
+[19-Jun-2025 00:49:20 Europe/Berlin] PHP Error [2]: Undefined array key 2 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 167
+[19-Jun-2025 00:49:20 Europe/Berlin] PHP Error [2]: Undefined array key 3 in C:\xampp\htdocs\LMS_System\sync_scholar\api\attendance\upload_attendance_csv.php on line 168
+[19-Jun-2025 00:49:20 Europe/Berlin] Row 3 values: Array
+(
+    [course_id] => 1
+    [student_id] => 
+    [status] => 
+    [remarks] => 
+)
+
+[19-Jun-2025 00:54:13 Europe/Berlin] Courses found for teacher 35: 3
+[19-Jun-2025 01:27:31 Europe/Berlin] Student ID: 34
+[19-Jun-2025 01:27:31 Europe/Berlin] File data: Array
+(
+    [name] => solution.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\phpFC1C.tmp
+    [error] => 0
+    [size] => 224642
+)
+
+[19-Jun-2025 01:27:48 Europe/Berlin] Student ID: 34
+[19-Jun-2025 01:27:48 Europe/Berlin] File data: Array
+(
+    [name] => solution.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php3CA0.tmp
+    [error] => 0
+    [size] => 224642
+)
+
+[19-Jun-2025 01:30:42 Europe/Berlin] Student ID: 34
+[19-Jun-2025 01:30:42 Europe/Berlin] File data: Array
+(
+    [name] => solution.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\phpE451.tmp
+    [error] => 0
+    [size] => 224642
+)
+
+[19-Jun-2025 01:31:46 Europe/Berlin] Student ID: 34
+[19-Jun-2025 01:31:46 Europe/Berlin] File data: Array
+(
+    [name] => solution.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\phpDE14.tmp
+    [error] => 0
+    [size] => 224642
+)
+
+[19-Jun-2025 21:31:23 Europe/Berlin] Student ID: 34
+[19-Jun-2025 21:31:23 Europe/Berlin] File data: Array
+(
+    [name] => _con.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php2583.tmp
+    [error] => 0
+    [size] => 25886
+)
+
+[19-Jun-2025 21:32:25 Europe/Berlin] PHP Error [2]: mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LMS_System\sync_scholar\config\db_config.php on line 13
+[19-Jun-2025 21:32:25 Europe/Berlin] Database connection failed: No connection could be made because the target machine actively refused it
+[19-Jun-2025 21:32:25 Europe/Berlin] Uncaught Exception: Database connection failed
+#0 C:\xampp\htdocs\LMS_System\sync_scholar\api\rollno\upload_rollno_slip.php(42): require_once()
+#1 {main}
+[19-Jun-2025 21:32:37 Europe/Berlin] Student ID: 34
+[19-Jun-2025 21:32:37 Europe/Berlin] File data: Array
+(
+    [name] => _con.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php4760.tmp
+    [error] => 0
+    [size] => 25886
+)
+
+[19-Jun-2025 22:57:38 Europe/Berlin] Student ID: 34
+[19-Jun-2025 22:57:38 Europe/Berlin] File data: Array
+(
+    [name] => _con.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php1D36.tmp
+    [error] => 0
+    [size] => 25886
+)
+
+[19-Jun-2025 22:59:07 Europe/Berlin] Student ID: 34
+[19-Jun-2025 22:59:07 Europe/Berlin] File data: Array
+(
+    [name] => _con.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php77D5.tmp
+    [error] => 0
+    [size] => 25886
+)
+
+[19-Jun-2025 23:02:29 Europe/Berlin] Student ID: 34
+[19-Jun-2025 23:02:29 Europe/Berlin] File data: Array
+(
+    [name] => _con.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php8F95.tmp
+    [error] => 0
+    [size] => 25886
+)
+
+[20-Jun-2025 00:09:48 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 00:11:49 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:23:53 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:24:11 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:24:18 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:33:48 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:35:55 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:37:14 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:38:13 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:50:32 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:51:48 Europe/Berlin] Courses found for teacher 35: 3
+[20-Jun-2025 23:52:35 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:00:53 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:05:01 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:05:03 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:05:14 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:05:27 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:05:48 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:06:14 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:06:48 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:06:50 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:07:11 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:07:23 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:24:00 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:24:02 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:24:06 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:24:16 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:24:20 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:24:38 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:26:51 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:27:34 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:27:40 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:36:19 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:36:24 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:36:36 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:40:58 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 00:46:29 Europe/Berlin] Raw input: {"firstName":"Faizan","lastName":"Xheikh","dob":"2025-06-03","gender":"male","email":"faizi@gamil.com","phone":"1234567899","address":"Modal Town\nModal Town","username":"faizi","password":"123","confirmPassword":"123","role":"student","rollNumber":"3569","program":"Computer Science","semester":"5","batchYear":"2025","prevSchool":"DPS","gpa":"3.03","employeeId":null,"department":null,"designation":null,"qualification":null,"specialization":null,"joiningDate":null,"experienceYears":null}
+[21-Jun-2025 00:46:29 Europe/Berlin] Parsed data: Array
+(
+    [firstName] => Faizan
+    [lastName] => Xheikh
+    [dob] => 2025-06-03
+    [gender] => male
+    [email] => faizi@gamil.com
+    [phone] => 1234567899
+    [address] => Modal Town
+Modal Town
+    [username] => faizi
+    [password] => 123
+    [confirmPassword] => 123
+    [role] => student
+    [rollNumber] => 3569
+    [program] => Computer Science
+    [semester] => 5
+    [batchYear] => 2025
+    [prevSchool] => DPS
+    [gpa] => 3.03
+    [employeeId] => 
+    [department] => 
+    [designation] => 
+    [qualification] => 
+    [specialization] => 
+    [joiningDate] => 
+    [experienceYears] => 
+)
+
+[21-Jun-2025 00:59:19 Europe/Berlin] Courses found for teacher 35: 3
+[21-Jun-2025 01:06:46 Europe/Berlin] Courses found for teacher 35: 4
+[21-Jun-2025 01:06:53 Europe/Berlin] Courses found for teacher 35: 4
+[21-Jun-2025 01:13:09 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:13:31 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:13:43 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:14:48 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:15:36 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:15:59 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:17:47 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:17:51 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:18:10 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:19:05 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:24:34 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:26:41 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:26:41 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => good
+)
+
+[21-Jun-2025 01:26:41 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => _con.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\phpEDD2.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:26:41 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:27:05 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:27:05 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Spring2024
+    [comments] => jj
+)
+
+[21-Jun-2025 01:27:05 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php4C00.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:27:05 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Spring2024'
+[21-Jun-2025 01:30:23 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:30:23 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Spring2024
+    [comments] => jj
+)
+
+[21-Jun-2025 01:30:23 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php5181.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:30:23 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Spring2024'
+[21-Jun-2025 01:30:43 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:30:43 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => jj
+)
+
+[21-Jun-2025 01:30:43 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\phpA177.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:30:43 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:32:19 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:32:19 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => jj
+)
+
+[21-Jun-2025 01:32:19 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php16B3.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:32:19 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:32:23 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:32:23 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => jj
+)
+
+[21-Jun-2025 01:32:23 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php254A.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:32:23 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:34:10 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:34:10 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => jj
+)
+
+[21-Jun-2025 01:34:10 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\phpC9D3.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:34:10 Europe/Berlin] PHP Error [2]: Undefined variable $rollNumber in C:\xampp\htdocs\LMS_System\sync_scholar\api\rollno\upload_rollno_slip.php on line 82
+[21-Jun-2025 01:34:10 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:34:10 Europe/Berlin] PHP Error [2]: Undefined variable $rollNumber in C:\xampp\htdocs\LMS_System\sync_scholar\api\rollno\upload_rollno_slip.php on line 92
+[21-Jun-2025 01:34:39 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:34:39 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => good luck
+)
+
+[21-Jun-2025 01:34:39 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php39D4.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:34:39 Europe/Berlin] PHP Error [2]: Undefined variable $rollNumber in C:\xampp\htdocs\LMS_System\sync_scholar\api\rollno\upload_rollno_slip.php on line 82
+[21-Jun-2025 01:34:39 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:34:39 Europe/Berlin] PHP Error [2]: Undefined variable $rollNumber in C:\xampp\htdocs\LMS_System\sync_scholar\api\rollno\upload_rollno_slip.php on line 92
+[21-Jun-2025 01:36:04 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:36:04 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => good luck
+)
+
+[21-Jun-2025 01:36:04 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php86A8.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:36:04 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:37:56 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:37:56 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => nb
+)
+
+[21-Jun-2025 01:37:56 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php3BEB.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:37:56 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:39:07 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:39:07 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => nb
+)
+
+[21-Jun-2025 01:39:07 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php4FFC.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:39:07 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:39:10 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:39:10 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => nb
+)
+
+[21-Jun-2025 01:39:10 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php5E83.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:39:10 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'
+[21-Jun-2025 01:39:30 Europe/Berlin] Teacher ID: 35
+[21-Jun-2025 01:39:30 Europe/Berlin] POST data received: Array
+(
+    [examType] => midterm
+    [semester] => Fall2023
+    [comments] => asd
+)
+
+[21-Jun-2025 01:39:30 Europe/Berlin] FILES data received: Array
+(
+    [rollNoSlip] => Array
+        (
+            [name] => rollno_68547ae5ea3f6.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\phpAC75.tmp
+            [error] => 0
+            [size] => 25886
+        )
+
+)
+
+[21-Jun-2025 01:39:30 Europe/Berlin] Roll number: '', Exam type: 'midterm', Semester: 'Fall2023'

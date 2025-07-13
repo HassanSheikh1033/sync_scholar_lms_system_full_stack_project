@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    min-height: 100vh;
+    background-color: #343a40;
+    padding-top: 1rem;
+}
+
+#sidebar .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem 0;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #495057;
+}
+
+#sidebar .nav-link.active {
+    background-color: #0d6efd;
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1rem;
+}
+
+/* Table Styles */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Status Badge Styles */
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+/* Modal Styles */
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: 500;
+}
+
+/* Button Styles */
+.btn-toolbar .btn {
+    margin-left: 0.5rem;
+}
+
+/* Alert Styles */
+.alert {
+    margin-bottom: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #sidebar {
+        min-height: auto;
+    }
+    
+    main {
+        margin-top: 1rem;
+    }
+} 

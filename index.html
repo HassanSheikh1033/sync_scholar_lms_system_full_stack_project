@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sync Scholars</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom styles to enhance Bootstrap -->
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #64748b;
+            --light: #f8fafc;
+            --dark: #0f172a;
+            --success: #10b981;
+            --info: #06b6d4;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --border-radius: 10px;
+            --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            background-color: var(--light);
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            padding: 15px 0;
+            transition: var(--transition);
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(29, 78, 216, 0.95));
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+            position: relative;
+            padding-bottom: 5px;
+        }
+
+        .navbar-brand::after {
+            content: '';
+            position: absolute;
+            width: 40%;
+            height: 3px;
+            background-color: white;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s ease;
+        }
+
+        .navbar-brand:hover::after {
+            width: 100%;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            position: relative;
+            padding: 8px 15px;
+            margin: 0 5px;
+            transition: var(--transition);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: white;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 80%;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../gallery1.avif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            padding: 150px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeInDown 1.2s ease;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            animation: fadeInUp 1.2s ease;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: var(--transition);
+            z-index: -1;
+        }
+
+        .btn:hover::before {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border: none;
+            color: white;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+        }
+
+        .btn-outline-light {
+            animation: fadeIn 1.5s ease 0.3s;
+            animation-fill-mode: both;
+        }
+
+        .btn-outline-light:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Section Styling */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            position: relative;
+            margin-bottom: 50px;
+            font-weight: 700;
+            color: var(--dark);
+            display: inline-block;
+            animation: fadeIn 1s ease;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background: linear-gradient(to right, var(--primary), transparent);
+            bottom: -10px;
+            left: 0;
+        }
+
+        /* Card Styling */
+        .card {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            border: none;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .card:hover .card-img-top {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .card-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .card-title::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 2px;
+            background-color: var(--primary);
+            bottom: 0;
+            left: 0;
+        }
+
+        .card-text {
+            color: var(--secondary);
+            line-height: 1.7;
+        }
+
+        /* Gallery Styling */
+        .gallery-img {
+            height: 250px;
+            object-fit: cover;
+            transition: var(--transition);
+            border-radius: var(--border-radius);
+        }
+
+        .gallery-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--border-radius);
+        }
+
+        .gallery-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .gallery-card:hover::after {
+            opacity: 1;
+        }
+
+        .gallery-card:hover .gallery-img {
+            transform: scale(1.1);
+        }
+
+        /* Table Styling */
+        .table-container {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            background-color: white;
+        }
+
+        .table {
+            margin-bottom: 0;
+        }
+
+        .table thead {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+        }
+
+        .table th {
+            font-weight: 600;
+            padding: 15px;
+            border: none;
+        }
+
+        .table td {
+            padding: 15px;
+            vertical-align: middle;
+            border-color: #e5e7eb;
+            color: var(--secondary);
+        }
+
+        .table tbody tr {
+            transition: var(--transition);
+        }
+
+        .table tbody tr:hover {
+            background-color: #f8fafc;
+            transform: scale(1.01);
+        }
+
+        /* Footer Styling */
+        footer {
+            background: linear-gradient(135deg, var(--dark), #1e293b);
+            color: white;
+            padding: 70px 0 30px;
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, var(--primary), var(--info), var(--success));
+        }
+
+        footer h3 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        footer h3::after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 2px;
+            background-color: var(--primary);
+            bottom: 0;
+            left: 0;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            color: #cbd5e1;
+        }
+
+        footer a {
+            color: #cbd5e1;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--primary);
+            transform: translateX(5px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+
+        /* Animation Classes */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .animate-on-scroll.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand animate__animated animate__fadeIn" href="#">Sync Scholars</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active animate__animated animate__fadeIn" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link animate__animated animate__fadeIn animate__delay-1s" href="register.html">Register</a></li>
+                        <li class="nav-item"><a class="nav-link animate__animated animate__fadeIn animate__delay-2s" href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="animate__animated animate__fadeInDown">Welcome to Sync Scholars</h1>
+                    <p class="animate__animated animate__fadeInUp animate__delay-1s">Learn, Explore, and Grow with our comprehensive educational resources designed to help you succeed in your academic journey</p>
+                    <div class="animate__animated animate__fadeIn animate__delay-2s">
+                        <a href="register.html" class="btn btn-primary me-3">Get Started</a>
+                        <a href="#about" class="btn btn-outline-light">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title animate-on-scroll">Our Mission</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="../card1.avif" class="card-img-top" alt="Education">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Our Mission</h3>
+                            <p class="card-text">To provide quality education and resources to students around the world, helping them achieve their academic and professional goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="../card3.webp" class="card-img-top" alt="Students">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Student-Centered</h3>
+                            <p class="card-text">We focus on creating an environment where students can thrive, with personalized learning experiences and support.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="../card2.avif" class="card-img-top" alt="Technology">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Innovative Approach</h3>
+                            <p class="card-text">Using the latest technologies and teaching methodologies to enhance the learning experience and prepare students for the future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title animate-on-scroll">Our Gallery</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6 animate-on-scroll">
+                    <div class="gallery-card shadow">
+                        <img src="../gallery1.avif" class="gallery-img w-100" alt="Campus">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animate-on-scroll">
+                    <div class="gallery-card shadow">
+                        <img src="../gallery2.avif" class="gallery-img w-100" alt="Library">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animate-on-scroll">
+                    <div class="gallery-card shadow">
+                        <img src="../gallery3.avif" class="gallery-img w-100" alt="Classroom">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animate-on-scroll">
+                    <div class="gallery-card shadow">
+                        <img src="../gallery4.avif" class="gallery-img w-100" alt="Laboratory">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animate-on-scroll">
+                    <div class="gallery-card shadow">
+                        <img src="../gallery5.avif" class="gallery-img w-100" alt="Sports">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animate-on-scroll">
+                    <div class="gallery-card shadow">
+                        <img src="../gallery6.avif" class="gallery-img w-100" alt="Graduation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title animate-on-scroll">Course Modules</h2>
+            </div>
+            <div class="table-container animate-on-scroll">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Module Code</th>
+                                <th>Module Name</th>
+                                <th>Credits</th>
+                                <th>Semester</th>
+                                <th>Instructor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>CS101</strong></td>
+                                <td>Introduction to Programming</td>
+                                <td>3</td>
+                                <td>Fall</td>
+                                <td>Dr. Hassan</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CS102</strong></td>
+                                <td>Data Structures</td>
+                                <td>4</td>
+                                <td>Spring</td>
+                                <td>Dr. Hassan</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CS201</strong></td>
+                                <td>Web Development</td>
+                                <td>3</td>
+                                <td>Fall</td>
+                                <td>Dr. Hassan</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CS202</strong></td>
+                                <td>Database Systems</td>
+                                <td>4</td>
+                                <td>Spring</td>
+                                <td>Dr. Hassan</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CS301</strong></td>
+                                <td>Artificial Intelligence</td>
+                                <td>3</td>
+                                <td>Fall</td>
+                                <td>Dr. Hassan</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title animate-on-scroll">Why Choose Us</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6 animate-on-scroll">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                            <h3 class="h5 mb-3">Expert Faculty</h3>
+                            <p class="card-text">Learn from industry experts and experienced educators dedicated to your success.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 animate-on-scroll">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                            </div>
+                            <h3 class="h5 mb-3">Modern Curriculum</h3>
+                            <p class="card-text">Stay ahead with our regularly updated curriculum aligned with industry needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 animate-on-scroll">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                            </div>
+                            <h3 class="h5 mb-3">Community Support</h3>
+                            <p class="card-text">Join a thriving community of learners and educators who support each other.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 animate-on-scroll">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                            </div>
+                            <h3 class="h5 mb-3">Recognized Certification</h3>
+                            <p class="card-text">Earn certificates recognized by top employers and educational institutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0 animate-on-scroll">
+                    <h3>About Us</h3>
+                    <p>We are dedicated to providing quality education and resources to help students succeed in their academic journey.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 animate-on-scroll">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope me-2"></i> hassan@gamil.com</p>
+                    <p><i class="fas fa-phone me-2"></i> 123 123 123</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> HF Town</p>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html"><i class="fas fa-chevron-right me-2"></i>Home</a></p>
+                    <p><a href="register.html"><i class="fas fa-chevron-right me-2"></i>Register</a></p>
+                    <p><a href="login.html"><i class="fas fa-chevron-right me-2"></i>Login</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2025 Sync Scholars. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript for animations -->
+    <script>
+        // Scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+            
+            function checkScroll() {
+                const triggerBottom = window.innerHeight * 0.8;
+                
+                animateElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    
+                    if (elementTop < triggerBottom) {
+                        element.classList.add('show');
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', checkScroll);
+            checkScroll(); // Check on initial load
+        });
+    </script>
+</body>
+</html>
